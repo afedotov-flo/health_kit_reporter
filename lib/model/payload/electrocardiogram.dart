@@ -79,9 +79,9 @@ class ElectrocardiogramHarmonized {
     this.metadata,
   );
 
-  final num averageHeartRate;
+  final num? averageHeartRate;
   final String averageHeartRateUnit;
-  final num samplingFrequency;
+  final num? samplingFrequency;
   final String samplingFrequencyUnit;
   final String classification;
   final String symptomsStatus;
